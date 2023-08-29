@@ -8,7 +8,7 @@ You must buy and enable your plans in ```nocaptchaai.com``` before using this se
 
 ### How to use
 - npm i
-- node server.js
+- node index.js
 
 ## Endpoint & Example
 - your_url/api/v1/in (POST)
