@@ -9,3 +9,13 @@ You must buy and enable your plans in ```nocaptchaai.com``` before using this se
 ### How to use
 - npm i
 - node server.js
+
+## Endpoint & Example
+- your_url/api/v1/in (POST)
+  ```
+  curl -s 'your_url/api/v1/in' -d 'method=captcha_method&sitekey=captcha_sitekey&pageurl=captcha_page_url'
+  ```
+- your_url/api/v1/out (POST)
+  ```
+  curl -s 'your_url/api/v1/out' -d 'id=nocaptcha_captcha_id'
+  ```
